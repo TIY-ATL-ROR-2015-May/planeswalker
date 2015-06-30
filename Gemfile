@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -29,6 +30,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 # Let's use the fastest server possible!
 gem 'puma'
+# Let's use foreman to manage our app!
+gem 'foreman'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
