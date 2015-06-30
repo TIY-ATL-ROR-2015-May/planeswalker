@@ -32,6 +32,8 @@ gem 'devise'
 gem 'puma'
 # Let's use foreman to manage our app!
 gem 'foreman'
+# Let's have support for background jobs.
+gem 'resque'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
